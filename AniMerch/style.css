@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    padding: 10px 100px;
+    position: relative;
+    background-color: rgb(80, 80, 80);
+  }
+
+  .header .logo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: -100px;
+    top: -5px;
+  }
+
+  .header .logo1 {
+    position: relative;
+    top: -20px;
+    left: 530px;
+  }
+
+  .menu {
+    border: 1px solid black;
+    background-color: black;
+    height: 50px;
+  }
+
+  .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .menu ul li a{
+    display: block;
+    padding: 13px 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Avenir Next', Helvetica,Arial,sans-serif;
+  }
+
+  .menu ul li a:hover{
+    background-color: #333;
+  }
+
+  .text {
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    line-height: 35px;
+    font-family: 'Avenir Next',Helvetica,Arial,sans-serif;
+
+  }
+
+  .text h1 {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+  
+  .small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .col-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-basis: 15%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+} 
+  
+  .col-1 img {
+    width: 100%;
+} 
+
+.col-1 img:hover {
+  transform: scaleX(-1);
+}
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 100px 250px;
+    text-align: center;
+    font-family: arial;
+}
+
+  .price {
+    color: grey;
+    font-size: 22px;
+}
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+  .card button:hover {
+    opacity: 0.7;
+}
+
+.col-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex-basis: 15%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+} 
+
+.col-2 img {
+  width: 100%;
+}
+
+.col-2 img:hover {
+  transform: scaleX(-1);
+}
